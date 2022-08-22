@@ -69,7 +69,7 @@ class Players{
         //DICE DISPLAY
                     document.querySelector('.diceDisplay').style.display = 'block';
         //Affichage du dé selon résultat du lancé
-                    document.querySelector('.diceDisplay').src = 'dice-'+ random +'.png';
+                    document.querySelector('.diceDisplay').src = 'dé-'+ random +'.png';
                     
         //SKIP PLAYERS
                     if(random !== 1){
